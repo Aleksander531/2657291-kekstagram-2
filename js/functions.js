@@ -1,8 +1,8 @@
-/* function checkingSringLength(string, number) {
+function checkingSringLength(string, number) {
   // eslint-disable-next-line no-alert
   return (string.length <= number) ? alert('Условие выполняется') : alert('Условие не выполняется, строка больше указанной длинны');
 }
-checkingSringLength('two', 4); */
+checkingSringLength('two', 4);
 
 
 function CheckPalindrome(line) {
