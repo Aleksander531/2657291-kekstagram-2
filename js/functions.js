@@ -13,15 +13,14 @@ function CheckPalindrome(line) {
   for (let i = register.length - 1; i >= 0; i--) {
     emptyLine += register[i];
     // eslint-disable-next-line no-alert
-    console.log(emptyLine);
   }
 
   if (register === emptyLine) {
     // eslint-disable-next-line no-alert
-    console.log('Это палиндром');
+    alert('Это палиндром');
   } else {
     // eslint-disable-next-line no-alert
-    console.log(`${register} - Это НЕ палиндром!!!`);
+    alert('Это НЕ палиндром!!!');
   }
 }
 
